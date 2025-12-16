@@ -22,5 +22,4 @@ public class OOPLinkedListElement<T>{
     public void setNext(OOPLinkedListElement<T> next) {
         this.next = next;
     }
-
 }
