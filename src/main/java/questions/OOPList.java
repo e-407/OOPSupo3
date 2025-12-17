@@ -1,3 +1,5 @@
+package questions;
+
 public interface OOPList<T> {
     void add(T value);
     void remove();

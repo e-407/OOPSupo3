@@ -1,3 +1,5 @@
+package questions;
+
 public class OOPLinkedListElement<T>{
     private T value;
     private OOPLinkedListElement<T> next;

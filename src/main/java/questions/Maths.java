@@ -1,3 +1,5 @@
+package questions;
+
 public class Maths {
     public static double root(double k){
         if (k<0){

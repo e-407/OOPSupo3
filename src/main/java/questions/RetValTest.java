@@ -1,3 +1,5 @@
+package questions;
+
 import java.util.NoSuchElementException;
 import java.lang.IllegalArgumentException;
 
