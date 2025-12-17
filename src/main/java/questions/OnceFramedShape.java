@@ -1,11 +1,12 @@
 package questions;
 
-public class FramedShape extends Shape{
+public class OnceFramedShape extends Shape{
     private Shape innerShape;
 
-    public FramedShape(Shape shape){
+    public <T extends Shape & Frameable> OnceFramedShape(T shape){
         this.innerShape = shape;
     }
+
     @Override
     public void draw() {
         innerShape.draw();
